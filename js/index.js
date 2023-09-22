@@ -3,7 +3,7 @@
 let all = (value) => {
     if (document.getElementById("display-screen").innerText == 0) {
 
-        console.log(document.getElementById("display-screen").innerText = value);
+        (document.getElementById("display-screen").innerText = value);
     } else {
         document.getElementById("display-screen").innerText += value;
 
