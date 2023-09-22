@@ -1,15 +1,17 @@
 
 
-let all = (value) => {
+let keypad = (value) => {
     if (document.getElementById("display-screen").innerText == 0) {
 
         (document.getElementById("display-screen").innerText = value);
     } else {
-        document.getElementById("display-screen").innerText += value;
+        console.log(document.getElementById("display-screen").innerText += value);
 
     }
 }
-let clear = () => {
+
+
+let gone = () => {
     document.getElementById("display-screen").innerText = 0;
 }
 
@@ -18,4 +20,3 @@ let e = () => {
     var result = document.getElementById("display-screen").innerText
     document.getElementById("display-screen").innerText = eval(result);
 }
-

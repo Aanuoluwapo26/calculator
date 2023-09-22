@@ -12,6 +12,9 @@
 </head>
 
 <body>
+
+
+
     <div class="display"
         style="height: 60px; width: 250px; background-color: black; color: #fffdfd; font-size: x-large;text-align: right; border-radius: 7px; padding: auto; font-size: x-large; font-weight: 1000;"
         id="display-screen">0
@@ -21,21 +24,21 @@
     <section>
 
         <button>
-            <div onclick="clear()">
+            <div onclick="gone()">
                 AC
             </div>
         </button>
 
-        <button onclick="all('+/-')">
+        <button onclick="keypad('+/-')">
             <div id="line2">+/-</div>
         </button>
 
 
-        <button onclick="all('%')">
+        <button onclick="keypad('%')">
             <div id="line3">%</div>
         </button>
 
-        <button onclick="all('/')">
+        <button onclick="keypad('/')">
             <div id="yellow" style="background-color: rgba(253, 175, 6, 0.808);">/</div>
         </button>
 
@@ -43,63 +46,63 @@
 
     <section>
 
-        <button onclick="all('7')">
+        <button onclick="keypad(7)">
             <div id="one" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">7</div>
         </button>
-        <button onclick="all('8')">
+        <button onclick="keypad(8)">
             <div id="one1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">8
             </div>
         </button>
 
-        <button onclick="all('9')">
+        <button onclick="keypad(9)">
             <div id="one2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">9
             </div>
         </button>
 
-        <button onclick="all('x')">
-            <div id="yellow1" style="background-color: rgba(253, 175, 6, 0.808);">x</div>
+        <button onclick="keypad('*')">
+            <div id="yellow1" style="background-color: rgba(253, 175, 6, 0.808);">*</div>
         </button>
 
     </section>
     <section>
 
-        <button onclick="all('4')">
+        <button onclick="keypad(4)">
             <div id="two" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">4</div>
         </button>
 
-        <button onclick="all('5')">
+        <button onclick="keypad(5)">
             <div id="two1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">5
             </div>
         </button>
 
-        <button onclick="all('6')">
+        <button onclick="keypad(6)">
             <div id="two2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">6
             </div>
         </button>
 
-        <button onclick="all('-')">
+        <button onclick="keypad('-')">
             <div id="yellow2" style="background-color: rgba(253, 175, 6, 0.808);">-</div>
         </button>
 
     </section>
     <section>
 
-        <button onclick="all('1')">
+        <button onclick="keypad(1)">
             <div id="three" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">1
             </div>
         </button>
 
-        <button onclick="all('2')">
+        <button onclick="keypad(2)">
             <div id="three1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">2
             </div>
         </button>
 
-        <button onclick="all('3')">
+        <button onclick="keypad(3)">
             <div id="three2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">3
             </div>
         </button>
 
-        <button onclick="all('+')">
+        <button onclick="keypad('+')">
             <div id="yellow3" style="background-color: rgba(253, 175, 6, 0.808);">+</div>
         </button>
 
@@ -107,13 +110,13 @@
 
     <section>
 
-        <button onclick="all('0')">
+        <button onclick="keypad(0)">
             <div id="two" style="background-color: rgb(39, 37, 37) ; color: #fffdfd; width: 70px; height: 20px;">0</div>
         </button>
 
 
 
-        <button onclick="all('.')">
+        <button onclick="keypad('.')">
             <div id="two2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;">.
             </div>
         </button>
@@ -130,6 +133,8 @@
 
 
 
+
+    <!-- <button onclick="x()">any</button> -->
 </body>
 
 </html>
