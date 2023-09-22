@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Calculator</title>
+    <a href="new.html"></a>
+    <link rel="stylesheet" href="../css/index.css">
+    </link>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="display"
+        style="height: 60px; width: 250px; background-color: black; color: #fffdfd; font-size: x-large;text-align: right; border-radius: 7px; padding: auto; font-size: x-large; font-weight: 1000;"
+        id="display-screen">0
+
+    </div>
+
+    <section>
+
+        <button>
+            <div onclick="clear()">
+                AC
+            </div>
+        </button>
+        <button>
+            <div id="line2" onclick="all('+/-')">+/-</div>
+        </button>
+
+        <button>
+            <div id="line3" onclick="all('%')">%</div>
+        </button>
+
+        <button>
+            <div id="yellow" style="background-color: rgba(253, 175, 6, 0.808);" onclick="all('/')">/</div>
+        </button>
+
+    </section>
+
+    <section>
+
+        <button>
+            <div id="one" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('7')">7</div>
+        </button>
+        <button>
+            <div id="one1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('8')">8
+            </div>
+        </button>
+
+        <button>
+            <div id="one2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('9')">9
+            </div>
+        </button>
+
+        <button>
+            <div id="yellow1" style="background-color: rgba(253, 175, 6, 0.808);" onclick="all('x')">x</div>
+        </button>
+
+    </section>
+    <section>
+
+        <button>
+            <div id="two" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('4')">4</div>
+        </button>
+
+        <button>
+            <div id="two1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('5')">5
+            </div>
+        </button>
+
+        <button>
+            <div id="two2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('6')">6
+            </div>
+        </button>
+
+        <button>
+            <div id="yellow2" style="background-color: rgba(253, 175, 6, 0.808);" onclick="all('-')">-</div>
+        </button>
+
+    </section>
+    <section>
+
+        <button>
+            <div id="three" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('1')">1
+            </div>
+        </button>
+
+        <button>
+            <div id="three1" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('2')">2
+            </div>
+        </button>
+
+        <button>
+            <div id="three2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('3')">3
+            </div>
+        </button>
+
+        <button>
+            <div id="yellow3" style="background-color: rgba(253, 175, 6, 0.808);" onclick="all('+')">+</div>
+        </button>
+
+    </section>
+
+    <section>
+
+        <button>
+            <div id="two" style="background-color: rgb(39, 37, 37) ; color: #fffdfd; width: 70px; height: 20px;"
+                onclick="all('0')">0</div>
+        </button>
+
+
+
+        <button>
+            <div id="two2" style="background-color: rgb(39, 37, 37) ; color: #fffdfd;" onclick="all('.')">.
+            </div>
+        </button>
+
+        <button onclick="e()">
+            <button>
+                <div id="yellow4" style="background-color: rgba(253, 175, 6, 0.808);" onclick="all('=')">=</div>
+            </button>
+
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>

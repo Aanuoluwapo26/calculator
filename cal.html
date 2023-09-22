@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal</title>
+</head>
+<style>
+    div p {
+        padding: 10px;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        color: black;
+        background-color: orangered;
+    }
+
+    section {
+        display: flex;
+        row-gap: 2;
+        margin-bottom: 20px;
+    }
+
+    button p {
+        background-color: goldenrod;
+        color: black;
+        border-radius: 20px;
+        width: 150px;
+        height: 50;
+        padding: 4px 10px;
+    }
+
+    button:hover {
+        color: goldenrod;
+        background-color: black;
+    }
+
+    .display-screen {
+        background-color: black;
+        color: beige;
+        padding: 20px;
+        text-align: right;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Calculator</h1>
+    </center>
+    <div>
+        <div style="width: 300px; margin: auto;">
+            <div class="display-screen" id="display-screen">
+                0
+            </div>
+            <section>
+                <button onclick="btn(1)">
+                    <div>
+                        <p>1</p>
+                    </div>
+                </button>
+                <button onclick="btn(2)">
+                    <div>
+                        <p>2</p>
+                    </div>
+                </button>
+                <button onclick="btn(3)">
+                    <div>
+                        <p>3</p>
+                    </div>
+                </button>
+
+            </section>
+            <section>
+                <button onclick="btn('+')">
+                    <div>
+                        <p>+</p>
+                    </div>
+                </button>
+                <button onclick="btn('-')">
+                    <div>
+                        <p>-</p>
+                    </div>
+                </button>
+                <button onclick="clr()">
+                    <div>
+                        <p>A/C</p>
+                    </div>
+                </button>
+
+            </section>
+
+            <button onclick="e()">
+                <p>=</p>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let btn = (value) => {
+            if (document.getElementById("display-screen").innerText == 0) {
+
+                document.getElementById("display-screen").innerText = value;
+            } else {
+                document.getElementById("display-screen").innerText += value;
+
+            }
+        }
+
+        let e = () => {
+            var result = document.getElementById("display-screen").innerText
+            document.getElementById("display-screen").innerText = eval(result);
+        }
+        let clr = () => {
+            // var result = document.getElementById("display-screen").innerText
+            document.getElementById("display-screen").innerText = 0;
+        }
+
+
+        // let parametizedFunc = (x)=>{
+        //     alert(x);
+        // }
+
+        // parametizedFunc(1234)
+        // console.log();
+    </script>
+</body>
+
+</html>

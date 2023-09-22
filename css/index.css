@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    background-color: #000;
+}
+
+div {
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    margin: 4px;
+    border-radius: 50px;
+    background-color: rgb(217, 224, 224);
+    padding: 12px;
+    font-size: large;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+/* div:hover {
+    color: antiquewhite;
+    background-color: #000;
+} */
+
+
+/* 
+.divi {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    margin: 4px;
+    border-radius: 50px;
+    background-color: hsl(20, 6%, 10%);
+    padding: 12px;
+    font-size: large;
+    color: #fffafa;
+
+} */
