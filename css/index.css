@@ -1,6 +1,9 @@
 section {
+
+    /* row-gap: 1; */
+    margin-bottom: 20px;
     display: flex;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 div {
@@ -15,6 +18,7 @@ div {
     font-weight: 400;
     color: #000;
     text-align: center;
+    
 }
 
 /* div:hover {

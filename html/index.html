@@ -16,31 +16,31 @@
 
 
     <div class="display"
-        style="height: 60px; width: 250px; background-color: black; color: #fffdfd; font-size: x-large;text-align: right; border-radius: 7px; padding: auto; font-size: x-large; font-weight: 1000;"
+        style="height: 60px; width: 240px; background-color: black; color: #fffdfd; font-size: x-large;text-align: right; border-radius: 7px;  font-size: x-large; font-weight: 1000;"
         id="display-screen">0
 
     </div>
 
     <section>
+        <centre>
+            <button>
+                <div onclick="gone()">
+                    AC
+                </div>
+            </button>
 
-        <button>
-            <div onclick="gone()">
-                AC
-            </div>
-        </button>
-
-        <button onclick="keypad('+/-')">
-            <div id="line2">+/-</div>
-        </button>
+            <button onclick="keypad('+/-')">
+                <div id="line2">+/-</div>
+            </button>
 
 
-        <button onclick="keypad('%')">
-            <div id="line3">%</div>
-        </button>
+            <button onclick="keypad('%')">
+                <div id="line3">%</div>
+            </button>
 
-        <button onclick="keypad('/')">
-            <div id="yellow" style="background-color: rgba(253, 175, 6, 0.808);">/</div>
-        </button>
+            <button onclick="keypad('/')">
+                <div id="yellow" style="background-color: rgba(253, 175, 6, 0.808);">/</div>
+            </button>
 
     </section>
 
@@ -111,7 +111,9 @@
     <section>
 
         <button onclick="keypad(0)">
-            <div id="two" style="background-color: rgb(39, 37, 37) ; color: #fffdfd; width: 70px; height: 20px;">0</div>
+            <div id="two"
+                style="background-color: rgb(39, 37, 37) ; color: #fffdfd; width: 70px; height: 20px; width: 90px;">0
+            </div>
         </button>
 
 
@@ -129,7 +131,7 @@
 
     </section>
 
-
+    </centre>
 
 
 
